@@ -1,4 +1,4 @@
-import { NextFunction, Response, Request } from 'express';
+import { NextFunction, Response } from 'express';
 import jwt from 'jsonwebtoken';
 import { IRequest } from '../constants/custom-request';
 import { JwtPayload } from '../constants/payload';

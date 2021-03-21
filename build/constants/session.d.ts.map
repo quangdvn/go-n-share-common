@@ -1,0 +1,1 @@
+{"version":3,"file":"session.d.ts","sourceRoot":"","sources":["../../src/constants/session.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,iBAAiB,CAAC;AAEtC,SAAS,OAAO,CAAC;AAEjB,OAAO,QAAQ,iBAAiB,CAAC;IAC/B,UAAU,WAAW;QACnB,KAAK,EAAE,MAAM,CAAC;KACf;CACF"}
