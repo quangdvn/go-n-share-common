@@ -6,6 +6,11 @@ export * from './constants/payload';
 //* Events
 export * from './events/staff-created-event';
 
+//* Guards
+export * from './guards/require-auth-staff.guard';
+export * from './guards/roles.decorator';
+export * from './guards/staff-roles.guard';
+
 //* Middlewares
 export * from './middlewares/current-user.middleware';
 
