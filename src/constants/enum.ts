@@ -18,3 +18,10 @@ export enum AuthRoles {
   STAFF = 'staff',
   DRIVER = 'driver',
 }
+
+export enum Location {
+  HANOI = 'HAN',
+  HOCHIMINH = 'HCM',
+  DANANG = 'DAN',
+  QUANGNINH = 'QAN',
+}
