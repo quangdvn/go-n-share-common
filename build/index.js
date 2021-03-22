@@ -16,6 +16,10 @@ __exportStar(require("./constants/enum"), exports);
 __exportStar(require("./constants/payload"), exports);
 //* Events
 __exportStar(require("./events/staff-created-event"), exports);
+//* Guards
+__exportStar(require("./guards/require-auth-staff.guard"), exports);
+__exportStar(require("./guards/roles.decorator"), exports);
+__exportStar(require("./guards/staff-roles.guard"), exports);
 //* Middlewares
 __exportStar(require("./middlewares/current-user.middleware"), exports);
 //* Patterns
