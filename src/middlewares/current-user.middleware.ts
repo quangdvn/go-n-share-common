@@ -8,20 +8,22 @@ export function CurrentUserMiddleware(
   res: Response,
   next: NextFunction
 ) {
-  const token = req.header('Authorization')?.replace('Bearer', '');
-  if (!req.session.token || !token) {
+  const headerToken = req.header('Authorization')?.replace('Bearer ', '');
+  if (!req.session?.token && !headerToken) {
     return next();
   }
+
   try {
     let payload = null;
-    if (req.session.token) {
+    if (req.session?.token) {
       payload = jwt.verify(req.session.token, 'quangdvn') as JwtPayload;
     } else {
-      payload = jwt.verify(token, 'quangdvn') as JwtPayload;
+      payload = jwt.verify(headerToken!, 'quangdvn') as JwtPayload;
     }
     req.currentUser = payload;
     next();
   } catch (err) {
+    console.log(err);
     next();
   }
 }
