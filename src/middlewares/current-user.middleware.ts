@@ -8,11 +8,17 @@ export function CurrentUserMiddleware(
   res: Response,
   next: NextFunction
 ) {
-  if (!req.session.token) {
+  const token = req.header('Authorization')?.replace('Bearer', '');
+  if (!req.session.token || !token) {
     return next();
   }
   try {
-    const payload = jwt.verify(req.session.token, 'quangdvn') as JwtPayload;
+    let payload = null;
+    if (req.session.token) {
+      payload = jwt.verify(req.session.token, 'quangdvn') as JwtPayload;
+    } else {
+      payload = jwt.verify(token, 'quangdvn') as JwtPayload;
+    }
     req.currentUser = payload;
     next();
   } catch (err) {
