@@ -1,11 +1,18 @@
-import { NextFunction, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
-import { IRequest } from '../constants/custom-request';
 import { JwtPayload } from '../constants/payload';
 
+declare global {
+  namespace Express {
+    interface Request {
+      currentUser?: JwtPayload;
+    }
+  }
+}
+
 export function CurrentUserMiddleware(
-  req: IRequest,
-  res: Response,
+  req: Request,
+  _: Response,
   next: NextFunction
 ) {
   const headerToken = req.header('Authorization')?.replace('Bearer ', '');
@@ -26,4 +33,5 @@ export function CurrentUserMiddleware(
     console.log(err);
     next();
   }
+  next();
 }
