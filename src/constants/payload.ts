@@ -3,7 +3,7 @@ import { AuthRoles, WorkingStatus, StaffRoles, DriverRoles } from './enum';
 export interface JwtPayload {
   auth: AuthRoles;
   data: {
-    id: string;
+    id: number;
     workingStatus: WorkingStatus;
     role: StaffRoles | DriverRoles;
   };
