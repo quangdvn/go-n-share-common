@@ -16,8 +16,6 @@ export function CurrentUserMiddleware(
   next: NextFunction
 ) {
   const headerToken = req.header('Authorization')?.replace('Bearer ', '');
-  console.log('1', headerToken);
-  console.log('2', req.session?.token);
   if (!req.session?.token && !headerToken) {
     return next();
   }
