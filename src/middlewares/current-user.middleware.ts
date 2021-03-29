@@ -33,5 +33,4 @@ export function CurrentUserMiddleware(
     console.log(err);
     next();
   }
-  next();
 }
