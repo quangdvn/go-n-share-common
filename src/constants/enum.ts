@@ -41,10 +41,10 @@ export enum DayOfWeek {
   SUNDAY,
 }
 
-export enum CoachType {
+export enum VehicleType {
   LARGE = 'large',
   MEDIUM = 'medium',
-  SMALL = 'small'
+  SMALL = 'small',
 }
 
 // MONDAY = 'Thứ Hai'
