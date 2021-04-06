@@ -41,6 +41,12 @@ export enum DayOfWeek {
   SUNDAY,
 }
 
+export enum CoachType {
+  LARGE = 'large',
+  MEDIUM = 'medium',
+  SMALL = 'small'
+}
+
 // MONDAY = 'Thứ Hai'
 // TUESDAY = 'Thứ Ba'
 // WEDNESDAY = 'Thứ Tư'
