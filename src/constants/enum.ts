@@ -41,12 +41,6 @@ export enum DayOfWeek {
   SUNDAY,
 }
 
-export enum VehicleType {
-  LARGE = 'large',
-  MEDIUM = 'medium',
-  SMALL = 'small',
-}
-
 // MONDAY = 'Thứ Hai'
 // TUESDAY = 'Thứ Ba'
 // WEDNESDAY = 'Thứ Tư'
@@ -54,3 +48,15 @@ export enum VehicleType {
 // FRIDAY = 'Thứ Sáu'
 // SATURDAY = 'Thứ Bảy'
 // SUNDAY = 'Chủ Nhật'
+
+export enum VehicleType {
+  LARGE = 'Large',
+  MEDIUM = 'Medium',
+  SMALL = 'Small',
+}
+
+export enum TripShift {
+  MORNING = 7,
+  AFTERNOON = 14,
+  NIGHT = 20,
+}
