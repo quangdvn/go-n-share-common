@@ -60,3 +60,15 @@ export enum TripShift {
   AFTERNOON = 14,
   NIGHT = 20,
 }
+
+export enum TripStatus {
+  UNCONFIRM = 'unconfirm',
+  READY = 'ready',
+  GOING = 'going',
+  FINISHED = 'finished',
+}
+
+export enum PaymentMethod {
+  CASH = 'cash',
+  online = 'online',
+}
