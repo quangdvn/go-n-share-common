@@ -1,4 +1,4 @@
-export interface TripCreatedEvent {
+export interface TripData {
   id: number;
   departureDate: string;
   departureTime: number;
@@ -6,4 +6,8 @@ export interface TripCreatedEvent {
   arriveTime: number;
   coachId: number;
   driverId: number;
+}
+
+export interface TripCreatedEvent {
+  tripData: TripData[];
 }
