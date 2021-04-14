@@ -7,6 +7,7 @@ export * from './constants/payload';
 export * from './events/staff-created-event';
 export * from './events/driver-created-event';
 export * from './events/trip-created-event';
+export * from './events/trip-status-updated-event';
 
 //* Messages
 export * from './messages/cab-fetching-mess';
