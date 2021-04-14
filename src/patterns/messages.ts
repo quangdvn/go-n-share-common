@@ -3,9 +3,11 @@ export enum Messages {
   DriverFetchingDev = 'driver:fetching:dev',
   CoachFetchingDev = 'coach:fetching:dev',
   CabFetchingDev = 'cab:fetching:dev',
+  RouteFetchingDev = 'route:fetching:dev',
 
   StaffFetching = 'staff:fetching',
   DriverFetching = 'driver:fetching',
   CoachFetching = 'coach:fetching',
   CabFetching = 'cab:fetching',
+  RouteFetching = 'route:fetching',
 }

@@ -13,6 +13,7 @@ export * from './events/trip-status-updated-event';
 export * from './messages/cab-fetching-mess';
 export * from './messages/coach-fetching-mess';
 export * from './messages/driver-fetching-mess';
+export * from './messages/route-fetching-mess';
 
 //* Middlewares
 export * from './middlewares/current-user.middleware';
