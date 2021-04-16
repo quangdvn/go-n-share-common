@@ -9,6 +9,7 @@ export * from './events/driver-created-event';
 export * from './events/trip-created-event';
 export * from './events/trip-status-updated-event';
 export * from './events/transit-created-event';
+export * from './events/transit-status-updated-event';
 
 //* Messages
 export * from './messages/cab-fetching-mess';

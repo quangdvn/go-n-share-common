@@ -4,10 +4,12 @@ export enum Events {
   TripCreatedDev = 'trip:created:dev',
   TripStatusUpdatedDev = 'trip:status:updated:dev',
   TransitCreatedDev = 'transit:created:dev',
+  TransitStatusUpdatedDev = 'transit:status:updated:dev',
 
   StaffCreated = 'staff:created',
   DriverCreated = 'driver:created',
   TripCreated = 'trip:created',
   TripStatusUpdated = 'trip:status:updated',
   TransitCreated = 'transit:created',
+  TransitStatusUpdated = 'transit:status:updated',
 }
