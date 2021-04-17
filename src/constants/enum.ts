@@ -72,3 +72,9 @@ export enum PaymentMethod {
   CASH = 'cash',
   online = 'online',
 }
+
+export enum BookingStatus {
+  PENDING = 'pending',
+  SUCCESS = 'success',
+  CANCELLED = 'cancelled',
+}
