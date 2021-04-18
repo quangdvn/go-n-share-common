@@ -64,13 +64,14 @@ export enum TripShift {
 export enum TripStatus {
   UNCONFIRM = 'unconfirm',
   READY = 'ready',
+  FULL = 'full',
   GOING = 'going',
   FINISHED = 'finished',
 }
 
 export enum PaymentMethod {
   CASH = 'cash',
-  online = 'online',
+  ONLINE = 'online',
 }
 
 export enum BookingStatus {
