@@ -79,3 +79,10 @@ export enum BookingStatus {
   SUCCESS = 'success',
   CANCELLED = 'cancelled',
 }
+
+export enum TransitDetailEnum {
+  READY = 'ready',
+  WAITING = 'waiting',
+  PICKED = 'picked',
+  CANCELLED = 'cancelled',
+}
