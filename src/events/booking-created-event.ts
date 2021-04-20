@@ -2,7 +2,7 @@ import { BookingStatus, PaymentMethod } from '../constants/enum';
 
 export interface BookingCreatedEvent {
   id: number;
-  tripId: string;
+  tripId: number;
   bookingName: string;
   bookingMail: string;
   bookingPhone: string;
