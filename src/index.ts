@@ -16,6 +16,7 @@ export * from './events/booking-verified-event';
 //* Messages
 export * from './messages/cab-fetching-mess';
 export * from './messages/coach-fetching-mess';
+export * from './messages/coach-detail-fetching-mess';
 export * from './messages/driver-fetching-mess';
 export * from './messages/route-fetching-mess';
 export * from './messages/transit-cab-fetching-mess';
@@ -25,6 +26,7 @@ export * from './messages/trip-fetching-mess';
 export * from './messages/all-trip-fetching-mess';
 export * from './messages/seat-coach-fetching-mess';
 export * from './messages/transit-detail-fetching-mess';
+export * from './messages/trip-fetching-mess';
 
 //* Middlewares
 export * from './middlewares/current-user.middleware';
