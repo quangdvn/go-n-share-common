@@ -1,3 +1,3 @@
 export interface CabFetchingMess {
-  id: number;
+  ids: number[];
 }
