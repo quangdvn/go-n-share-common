@@ -22,6 +22,7 @@ export * from './messages/transit-cab-fetching-mess';
 export * from './messages/transit-driver-fetching-mess';
 export * from './messages/transit-detail-creating-mess';
 export * from './messages/trip-fetching-mess';
+export * from './messages/all-trip-fetching-mess';
 export * from './messages/seat-coach-fetching-mess';
 export * from './messages/transit-detail-fetching-mess';
 
