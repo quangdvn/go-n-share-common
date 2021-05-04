@@ -8,7 +8,8 @@ export enum Messages {
   TransitCabFetchingDev = 'transit:cab:fetching:dev',
   TransitDriverFetchingDev = 'transit:driver:fetching:dev',
   TransitDetailCreatingDev = 'transit:detail:creating:dev',
-  SeatCoachFetching = 'seat:coach:fetching',
+  SeatCoachFetchingDev = 'seat:coach:fetching:dev',
+  TransitDetailFetchingDev = 'transit:detail:fetching:dev',
 
   StaffFetching = 'staff:fetching',
   DriverFetching = 'driver:fetching',
@@ -19,5 +20,6 @@ export enum Messages {
   TransitCabFetching = 'transit:cab:fetching',
   TransitDriverFetching = 'transit:driver:fetching',
   TransitDetailCreating = 'transit:detail:creating',
-  SeatCoachFetchingDev = 'seat:coach:fetching:dev',
+  SeatCoachFetching = 'seat:coach:fetching',
+  TransitDetailFetching = 'transit:detail:fetching',
 }
