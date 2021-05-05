@@ -1,3 +1,4 @@
 export interface CabFetchingMess {
-  id: number;
+  cabId: number;
+  tripId: number;
 }

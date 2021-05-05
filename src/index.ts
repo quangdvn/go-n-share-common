@@ -26,7 +26,7 @@ export * from './messages/trip-fetching-mess';
 export * from './messages/all-trip-fetching-mess';
 export * from './messages/seat-coach-fetching-mess';
 export * from './messages/transit-detail-fetching-mess';
-export * from './messages/trip-fetching-mess';
+export * from './messages/trip-booking-fetching-mess';
 
 //* Middlewares
 export * from './middlewares/current-user.middleware';
