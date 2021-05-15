@@ -13,7 +13,7 @@ export interface BookingCreatedEvent {
   isVerify: boolean;
   bookingStatus: BookingStatus;
   paymentMethod: PaymentMethod;
-  transitDetail: {
+  transitDetail?: {
     address: string;
     latitude: string;
     longitude: string;
