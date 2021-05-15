@@ -13,7 +13,7 @@ export * from './events/transit-status-updated-event';
 export * from './events/booking-created-event';
 export * from './events/booking-verified-event';
 export * from './events/driver-sacked-event';
-export * from './events/staff-created-event';
+export * from './events/staff-sacked-event';
 
 //* Messages
 export * from './messages/cab-fetching-mess';
